@@ -2,6 +2,7 @@
 <html>
 
 <head>
+  <meta charset="utf-8">
   <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
   <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -12,29 +13,74 @@
 <body>
   <div class="container">
     <h1><strong>QUIZ BOARD!</strong></h1>
-    <p>Answer the following questions</p>
+    <p><strong>Answer the following questions:</strong></p>
     <form id="quiz">
-      <h2>What is JavaScript<h2>
-          <div class="radio">
-            <label>
-              <input type="radio" name="No 1 answers" value="A" checked>
-              A programming language
-            </label>
-          </div>
-          <div class="radio">
+      <ol>
+         <li>What is JavaScript?</li>
+         <div class="form-group">
+          <label>
+            <input type="radio" name="No 1 answers" value="A" checked>
+            A programming language
+          </label>
+        </div>
+
+          <div class="form-group">
             <label>
               <input type="radio" name="No 1 answers" value="B">
               A software
             </label>
           </div>
-          <div class="radio">
+          <div class="form-group">
             <label>
               <input type="radio" name="No 1 answers" value="C">
-              A method
+              A hyper text markup language
             </label>
           </div>
 
-          <button type="submit" class="btn">Submit</button>
+          <li>Which one of the following is not a loop?</li>
+          <div class="form-group">
+            <label>
+              <input type="radio" name="No 2 answers" value="A">
+              .for each
+            </label>
+          </div>
+          <div class="form-group">
+            <label>
+              <input type="radio" name="No 2 answers" value="B" checked>
+              HTML
+            </label>
+          </div>
+          <div class="form-group">
+            <label>
+              <input type="radio" name="No 2 answers" values="C">
+              while
+            </label>
+          </div>
+
+              <li>Which one of the following is not a JavaScript data type?</li>
+              <div class="form-group">
+                <label>
+                  <input type="radio" name="No 3 answers" value="A">
+                  Boolean
+                </label>
+              </div>
+
+              <div class="form-group">
+                <label>
+                  <input type="radio" name="No 3 answers" value="B">
+                  Number
+                </label>
+              </div>
+
+              <div class="form-group">
+                <label>
+                  <input type="radio" name="No 3 answers" value="C" checked>
+                  Method
+                </label>
+              </div>
+      </ol>
+
+      <button type="submit" class="btn">Click ToThe Next Page</button>
     </form>
   </div>
 </body>
