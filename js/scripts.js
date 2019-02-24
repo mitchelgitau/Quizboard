@@ -8,7 +8,7 @@ $(document).ready(function(){
     for(i=0;i<quizs.length;i++){
       var choice=parseInt($("form input[name='"+ i + "']:checked").val());
       if(isNaN(choice)){
-        alert("Can you be serious and fill all the questions")
+        alert("Kindly Answer The Questions")
         break;
       }
       else {
@@ -16,19 +16,19 @@ $(document).ready(function(){
       }
     }
     // this is the business logic
-    if(answers[0]===1){
+    if(answers[1]===A){
       scores.push(4)
 
-       if(answers[1]===1){
+       if(answers[2]===B){
         scores.push(4)
 
-        if(answers[2]===3){
+        if(answers[3]===C){
           scores.push(4)
 
-          if(answers[3]===1){
+          if(answers[4]===A){
             scores.push(4)
 
-            if(answers[4]===2){
+            if(answers[5]===B){
               scores.push(4)
             }
             else {
