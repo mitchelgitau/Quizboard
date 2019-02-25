@@ -21,22 +21,3 @@ h1 {
   font-size: 50px;
   font-style: oblique;
 }
-
-#font{
-  font-family: 'Nova Flat', cursive;
-  color: green;
-}
-.radio{
-  font-family: 'Nova Flat', cursive;
-}
-.panel-title{
-  font-family: 'Nova Flat', cursive;
-}
-#switch{
-  font-family: 'Nova Flat', cursive;
-  color: green;
-}
-#result{
-  font-family: 'Nova Flat', cursive;
-  color: green;
-}
