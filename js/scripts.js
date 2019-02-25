@@ -8,6 +8,6 @@ $(document).ready(function(){
     var question5 = parseInt($("input:radio[name = 5]:checked").val());
 
     var total =1 + 2 + 3 + 4 + 5;
-    document.getElementById("results").innerHTML= "your score is" + answer;
+    document.getElementById("results").innerHTML= "your score is" + total + "out of 25";
   });
 });
