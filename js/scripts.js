@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $("input[type='button']").click(function(event){
+  $("form").click(function(event){
     event.preventDefault();
     var question1 = parseInt($("input:radio[name = 1]:checked").val());
     var question2 = parseInt($("input:radio[name = 2]:checked").val());
@@ -8,6 +8,6 @@ $(document).ready(function(){
     var question5 = parseInt($("input:radio[name = 5]:checked").val());
 
     var total =1 + 2 + 3 + 4 + 5;
-    $("form").hide();
-    $("button").hide();
-    $("#result").text("Your score is" + result +"out of 30");
+    document.getElementById("results").innerHTML= "your score is" + answer;
+  });
+});
