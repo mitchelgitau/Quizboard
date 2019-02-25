@@ -1,13 +1,13 @@
 $(document).ready(function(){
-  $("form-group").submit(function(event) {
+  $("button#btn").click(function number(event){
     event.preventDefault();
-    var question1 = parseInt($("input:radio[name =No 1]:checked").val());
-    var question2 = parseInt($("input:radio[name =No 2]:checked").val());
-    var question3 = parseInt($("input:radio[name =No 3]:checked").val());
-    var question4 = parseInt($("input:radio[name =No 4]:checked").val());
-    var question5 = parseInt($("input:radio[name =No 5]:checked").val());
+    var no1 = parseInt($("input:radio[name = No1]:checked").val());
+    var no2 = parseInt($("input:radio[name = No2]:checked").val());
+    var no3 = parseInt($("input:radio[name = No3]:checked").val());
+    var no4 = parseInt($("input:radio[name = No4]:checked").val());
+    var no5 = parseInt($("input:radio[name = No5]:checked").val());
 
-    var total =1 + 2 + 3 + 4 + 5;
+    var total = no1 + no2 + no3 + no4 + no5;
     document.getElementById("results").innerHTML= "your score is" + total + "out of 25";
   });
 });
