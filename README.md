@@ -24,11 +24,11 @@ The project comprises of radios with answers that a user is prompt to check.The 
 
 ## TECHNOLOGIES USED
 
-HTML        -HTML enhanced for web apps!
-ATOM EDITOR - text editor.
-CSS         - great UI for modern web apps.
-JAVASCRIPT  - evented for the backend.
-JQUERY      - for great effects.
+1.HTML        -HTML enhanced for web apps!
+2.ATOM EDITOR - text editor.
+3.CSS         - great UI for modern web apps.
+4.JAVASCRIPT  - evented for the backend.
+5.JQUERY      - for great effects.
 
 
 ## LICENSE
